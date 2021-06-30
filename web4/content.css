@@ -1,0 +1,56 @@
+@charset 'utf-8'
+#gt {font-family: "RobotoB"}    
+.content { clear:both; position:relative; } 
+.content:after { content:""; clear:both; display:block; }  
+.vs { width: 1440px; margin: 0 auto; height: auto; clear:both; position: relative;}
+.vs_tit {position: absolute; top: 100px; left: 100px; font-size: 44px;}
+.vs_com {position: absolute; top: 250px; left: 100px; font-size: 25px;}
+.vs img { display:block; width: 100%; height: auto; }   
+.icon_1 {position: absolute; top: 350px; left: 80px; font-size: 25px;}
+.icon_2 {position: absolute; top: 355px; left: 200px; font-size: 25px;}
+.icon_3 {position: absolute; top: 355px; left: 320px; font-size: 25px;}
+
+
+#page1 {width: 1440px; margin: 0 auto; height: 700px; background-color: #00b5f0} 
+#page1 .icon_lst {float:left; padding-top: 100px; width: 1500px; margin: 0 auto; }
+#page1 .icon_lst li {float: right; padding: 25px;}
+#page1 .icon_lst li:first-child {margin-right:280px;}
+#page1 .icon_lst li .icon_tit {text-align: center; padding-top: 10px; font-size: 25px; font-weight: 600;}
+#page1 .icon_lst li img {width: 150px; height: 150px;}
+.page1_tit {text-align: center; padding-top: 50px; font-size: 44px; color: #fff} 
+.page1_com {text-align: center; padding-top: 80px; font-size: 30px; color: #fff}
+
+#page2 {width: 1440px;margin: 0 auto; height: 700px; margin-top: 50px; position: relative;}
+#page2 .page2_tit {margin-left: 50px;  font-size: 35px; font-weight: 600; padding: 10px 50px;}
+#page2 #tit1 { display: block; border: 3px solid #000; width: 150px; height: auto; text-align: center; border-bottom: 0; color: darkred;}
+#page2 #tit2 {position: absolute; left: 253px; top: 0; border: 3px solid #000; border-left: 0 ; padding: 10px 70px;}
+#page2 .page2_com { padding-top: 30px; font-size: 22px; font-weight: 600; float: left; padding: 1em;}
+#page2 #page2_com1 {padding-left: 50px;}
+#page2 #page2_com2 {color: darkred;}
+#page2 .page2_left {clear: both; float: left; width: 600px;}
+#page2 .page2_left img {margin-left: 40px;}
+#page2 .page2_right .right_tit { margin-top: 100px;margin-left: 800px; width: 700px; font-size: 50px}
+#page2 .page2_right .right_com {margin-left: 800px; padding-top: 50px; font-size: 25px; font-weight: 500; line-height: 2; }
+
+#page3 {width: 1440px; margin: 0 auto; height: 500px; background-image: url(./img/section3.jpg); background-repeat: no-repeat;}
+.page3_tit {padding-left: 100px; padding-top: 50px; font-size: 50px; }
+.page3_com {padding-left: 100px; padding-top: 30px; font-size: 20px;}
+#page3 .icon_lst2 {float:left; padding-top: 50px; width: 1500px; margin: 0 auto;}
+#page3 .icon_lst2 li {float: left; margin-left: 20px; }
+#page3 .icon_lst2 li:first-child {margin-left:100px; }
+#page3 .icon_lst2 li img {width: 100px; height: 100px;}
+#page3 .icon_lst2 li .icon_tit {text-align: center; padding-top: 10px; font-size: 18px; color:#65686d}
+
+#page4 {width: 1440px; margin: 0 auto; height: 800px; background-color: #ccc}
+.page4_tit {text-align: center; padding-top: 20px; font-size: 35px;}
+.page4_com {text-align: center; padding-top: 50px; font-size: 25px; font-weight: 600;}
+#page4 iframe {padding-left: 250px; padding-top: 50px;top:150px}
+
+#page5 {width: 1440px; margin: 0 auto; height: 300px;}
+#page5 .page5_tit {font-size: 35px; padding-left: 25px; padding-top: 50px;}
+#page5 .left {float: left;width: 600px; padding-left: 30px; padding-top: 30px;}
+#page5 .left li {padding-left: 30px;border-bottom: 3px solid #ccc;line-height: 50px;}
+#page5 .left li a {font-size: 20px; text-align: center; font-weight: 600; color: #645858 ; transition: 0.6s}
+#page5 .left li a:hover {color: #000}
+#page5 .right {width: 750px; padding-left: 0px;float: left;}
+#page5 .right li {float: right; padding: 10px;}
