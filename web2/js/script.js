@@ -1,5 +1,9 @@
 $(function () {
     //좌측 불들어오게 하기
+    $(".cnt_box li:first-child i").addClass("on")
+    $(".cnt_icon1 a").css({
+        backgroundColor: "#00b9ff"
+    });
     $(window).scroll(function () {
         var ht = $(window).scrollTop();
         console.log("ht:" + ht)
@@ -8,36 +12,46 @@ $(function () {
                 background: "#fff"
             });
             $(".cnt_icon1 a").css({
-                backgroundColor: "#eee"
+                backgroundColor: "#00b9ff"
             });
+            $(".cnt_box li i").removeClass("on")
+            $(".cnt_box li:first-child i").addClass("on")
         } else if (ht > 300 && ht < 1150) {
             $(".cnt_box > ul > li > a").css({
                 background: "#fff"
             });
             $(".cnt_icon2 a").css({
-                backgroundColor: "#eee"
+                backgroundColor: "#00b9ff"
             });
-        } else if (ht > 1150 && ht < 1938) {
+            $(".cnt_box li i").removeClass("on")
+            $(".cnt_box li:nth-child(2) i").addClass("on")
+        } else if (ht > 1150 && ht <= 1938) {
             $(".cnt_box > ul > li > a").css({
                 background: "#fff"
             });
             $(".cnt_icon3 a").css({
-                backgroundColor: "#eee"
+                backgroundColor: "#00b9ff"
             });
-        } else if (ht > 1938 && ht < 2907) {
+            $(".cnt_box li i").removeClass("on")
+            $(".cnt_box li:nth-child(3) i").addClass("on")
+        } else if (ht >= 1939 && ht <= 2907) {
             $(".cnt_box > ul > li > a").css({
                 background: "#fff"
             });
             $(".cnt_icon4 a").css({
-                backgroundColor: "#eee"
+                backgroundColor: "#00b9ff"
             });
-        } else if (ht > 2907) {
+            $(".cnt_box li i").removeClass("on")
+            $(".cnt_box li:nth-child(4) i").addClass("on")
+        } else if (ht > 2908) {
             $(".cnt_box > ul > li > a").css({
                 background: "#fff"
             });
             $(".cnt_icon5 a").css({
-                backgroundColor: "#eee"
+                backgroundColor: "#00b9ff"
             });
+            $(".cnt_box li i").removeClass("on")
+            $(".cnt_box li:nth-child(5) i").addClass("on")
         }
     })
 
