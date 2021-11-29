@@ -1,0 +1,954 @@
+@charset 'utf-8';
+
+* {
+    margin: 0;
+    padding: 0;
+    /*    background: #000;*/
+}
+
+.bing {
+    font-family: 'Bing';
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrap {
+    width: 100%;
+    /*    background-image: url(../images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    position: relative;
+}
+
+.hd {
+    width: 100%;
+    height: 80px;
+    /*    padding: 0.5%;*/
+    position: fixed;
+    /*    background: #fff;
+    opacity: 0.8;*/
+    z-index: 999;
+}
+
+.hd_wrap {
+    margin: 0 auto;
+    width: 1440px;
+    height: 80px;
+    position: relative;
+}
+
+a.logo {
+    width: 250px;
+    display: block;
+    height: 60px;
+    float: left;
+    margin-top: 10px;
+    /*position: absolute;*/
+}
+
+.gnb {
+    width: 680px;
+    height: 80px;
+    float: right;
+    margin-top: 20px;
+}
+
+.gnb li {
+    float: left;
+    padding: 15px;
+}
+
+.gnb li a {
+    display: block;
+    font-size: 23px;
+    color: #000;
+    font-weight: 600;
+    transition: all 0.8s;
+}
+.gnb li a:hover{
+    color: #fff;
+}
+
+.page {
+    min-width: 1440px;
+    margin: 0 auto;
+    height: 90vh;
+}
+
+#page1 {
+    width: 100%;
+    background: #c9dbef;
+    position: relative;
+    height: 100vh;
+}
+
+/*폰트*/
+#app {
+    position: absolute;
+    width: 750px;
+    height: 65px;
+    bottom: 58%;
+    left: 30%;
+    font-size: 2.5vw;
+    font-weight: 600;
+    font-family: 'Bing';
+    color: #000;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/*#app::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    bottom: -10%;
+    left: 0;
+}*/
+.pg1_sub {
+    position: absolute;
+    bottom: 10%;
+    width: 680px;
+    left: 32%;
+    font-size: 1.2vw;
+    font-weight: 600;
+    font-family: 'Bing';
+    color: #000;
+    text-align: center;
+    opacity: 0.5;
+    line-height: 40px;
+
+}
+.pg1_sub2 {
+    position: absolute;
+    bottom: 2%;
+    width: 680px;
+    left: 32%;
+    font-size: 0.9vw;
+    font-weight: 600;
+    font-family: 'Bing';
+    color: #000;
+    text-align: center;
+    opacity: 0.5;
+    line-height: 28px;
+
+}
+.Typewriter_cursor {
+    -webkit-animation: Typewriter-cursor 1s infinite;
+    animation: Typewriter-cursor 1s infinite;
+    margin-left: 1px;
+}
+
+@keyframes Typewriter-cursor {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#page2 {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#page2 .page2_tit {
+    margin-top: 100px;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+#page2 .page2_sub {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #585858;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.pic {
+    display: block;
+    width: 380px;
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.pg2_col1 {
+    width: 32%;
+    height: 85vh;
+    float: left;
+}
+
+.pg2_col2 {
+    width: 68%;
+    height: 85vh;
+    float: left;
+    position: relative;
+}
+
+.name {
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    top: 42%;
+}
+
+.name_sub {
+    position: absolute;
+    display: block;
+    line-height: 35px;
+    font-size: 17px;
+    top: 47%;
+    left: 1%;
+}
+
+.spec {
+    position: absolute;
+    top: 46%;
+    left: 13%;
+    font-size: 16px;
+    line-height: 37px;
+}
+
+.bar {
+    width: 3px;
+    height: 220px;
+    position: absolute;
+    background: #6e706e;
+    left: 38%;
+    top: 41%;
+}
+
+.mbti {
+    position: absolute;
+    font-size: 25px;
+    right: 33%;
+    top: 41.5%;
+}
+
+.mbti_sub {
+    position: absolute;
+    display: block;
+    line-height: 50px;
+    font-size: 17px;
+    top: 46%;
+    right: 31%;
+}
+
+.mbti_img {
+    display: block;
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    right: 12%;
+    top: 30%;
+}
+
+.tmi {
+    position: absolute;
+    right: 10%;
+    top: 51%;
+    line-height: 35px;
+}
+
+.slogun {
+    position: absolute;
+    font-size: 25px;
+    top: 70%;
+}
+
+.slogun_sub {
+    position: absolute;
+    font-size: 16px;
+    top: 70%;
+    left: 1%;
+}
+
+.slogun_com {
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+    line-height: 30px;
+    text-align: left;
+}
+
+.bar2 {
+    width: 3px;
+    height: 250px;
+    position: absolute;
+    background: #6e706e;
+    left: 57%;
+    top: 70%;
+}
+    
+.license {
+    position: absolute;
+    font-size: 25px;
+    top: 70.1%;
+    left: 60%;
+}
+
+.license_com {
+    position: absolute;
+    top: 76.5%;
+    left: 61%;
+    line-height: 0px;
+    text-align: left;
+}
+.license_com2 {
+    position: absolute;
+    top: 79.5%;
+    left: 61%;
+    text-align: left;
+}
+
+.turn {
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    top: 84.4%;
+    left: 60%;
+}
+.turn_com {
+    position: absolute;
+    top: 91%;
+    left: 61.5%;
+}
+.turn_com li{
+    float: left;
+    margin-left: 5px;
+}
+.turn_com li:nth-child(1){
+    margin-left: 0px;
+}
+.li1{
+    display: block;
+    width: 50px;
+    height: 50px;;
+}
+.li2{
+    display: block;
+    width: 55px;
+    height: 55px;;
+}
+.html {
+    position: absolute;
+    font-size: 25px;
+    bottom: 42%;
+    left: 1%;
+}
+
+.css {
+    position: absolute;
+    font-size: 25px;
+    bottom: 32%;
+    left: 1%;
+}
+
+.jquery {
+    position: absolute;
+    font-size: 25px;
+    bottom: 38%;
+    left: 0.5%;
+}
+
+#page3 {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+#page3 .page3_tit {
+    padding-top: 100px;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 50px;
+}
+#page3 .page3_sub {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #585858;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.svg_box {
+    width: 1440px;
+    margin: 100px auto;
+    margin-left: 50px;
+    height: 250px;
+    position: relative;
+}
+.pro1_com{
+    display: block;;
+    position: absolute;
+    left: 250px;
+    top: 70px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.progress {
+    float: left;
+    width: 220px;
+    height: 220px;
+    /* margin-left: 50px; */
+    margin-top: 20px;
+    margin-right: 50px;
+    text-align: center;
+    transition: all 0.5s;
+    position: relative;
+}
+.progress2 {
+    float: left;
+    width: 220px;
+    height: 220px;
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-right: 50px;
+    text-align: center;
+    transition: all 0.5s;
+    position: relative;
+}
+.progress3 {
+    float: left;
+    width: 220px;
+    height: 220px;
+    /* margin-left: 50px; */
+    margin-top: 20px;
+    margin-right: 50px;
+    text-align: center;
+    transition: all 0.5s;
+    position: relative;
+}
+.progress4 {
+    float: left;
+    width: 220px;
+    height: 220px;
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-right: 50px;
+    text-align: center;
+    transition: all 0.5s;
+    position: relative;
+}
+.dkslek {
+    position: absolute;
+    text-align: center;
+    font-size: 27px;
+    top: 23%;
+    left: 20%;
+    display: block;   
+}
+.pr{
+    display: block;
+    width: 110px;
+    height: 110px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+/*.path2 {
+    animation: ani 2s;
+}
+
+애니메이션 이름을 지정하고, 시간을 조절한다.
+@keyframes ani {
+    0% {
+        stroke-dasharray: 298.493, 298.493;
+        stroke-dashoffset: 298.493;
+    }
+
+    100% {
+        stroke-dasharray: 298.493, 298.493;
+        stroke-dashoffset: 30;
+    }
+}*/
+.path1 {
+    animation: ani1 2s;
+}
+
+/*애니메이션 이름을 지정하고, 시간을 조절한다.*/
+@keyframes ani1 {
+    0% {
+        stroke-dasharray: 298.493, 298.493;
+        stroke-dashoffset: 298.493;
+    }
+
+    100% {
+        stroke-dasharray: 298.493, 298.493;
+        stroke-dashoffset: 50;
+    }
+}
+
+.path2 {
+    animation: ani2 2s;
+}
+
+
+/*애니메이션 이름을 지정하고, 시간을 조절한다.*/
+@keyframes ani2 {
+    0% {
+        stroke-dasharray: 298.493, 298.493;
+        stroke-dashoffset: 298.493;
+    }
+
+    100% {
+        stroke-dasharray: 298.493, 298.493;
+        stroke-dashoffset: 10;
+    }
+}
+
+.path3 {
+    animation: ani3 2s;
+}
+
+/*애니메이션 이름을 지정하고, 시간을 조절한다.*/
+@keyframes ani3 {
+    0% {
+        stroke-dasharray: 298.493, 298.493;
+        stroke-dashoffset: 298.493;
+    }
+
+    100% {
+        stroke-dasharray: 298.493, 298.493;
+        stroke-dashoffset: 30;
+    }
+}
+
+.path4 {
+    animation: ani4 2s;
+}
+
+/*애니메이션 이름을 지정하고, 시간을 조절한다.*/
+@keyframes ani4 {
+    0% {
+        stroke-dasharray: 298.493, 298.493;
+        stroke-dashoffset: 298.493;
+    }
+
+    100% {
+        stroke-dasharray: 298.493, 298.493;
+        stroke-dashoffset: 30;
+    }
+}
+
+.path5 {
+    animation: ani5 2s;
+}
+
+/*애니메이션 이름을 지정하고, 시간을 조절한다.*/
+@keyframes ani5 {
+    0% {
+        stroke-dasharray: 298.493, 298.493;
+        stroke-dashoffset: 298.493;
+    }
+
+    100% {
+        stroke-dasharray: 298.493, 298.493;
+        stroke-dashoffset: 30;
+    }
+}
+
+#page4 {
+    width: 1440px;
+    margin: 0 auto;
+    height: 2950px;
+}
+
+#page4 .page4_tit {
+    margin-top: 200px;
+    padding-top: 100px;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+#page4 .page4_sub {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #585858;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+/*.port_tit1{
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 50px;
+}*/
+#slide1 {
+    border: 2px solid #000;
+    margin-top: 100px;
+    width: 1200px;
+    height: 700px;
+    margin-left: 120px;
+    position: relative;
+}
+
+.slide1_box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 500px;
+    height: 300px;
+    background: #000;
+    z-index: 6;
+}
+
+.por1_tit {
+    position: absolute;
+    left: 30px;
+    bottom: 100px;
+    font-size: 35px;
+    color: #fff;
+}
+
+.btn1 {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    bottom: 0px;
+    right: 0;
+    z-index: 5;
+}
+
+.btn1 li {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: #000;
+}
+
+.btn1 li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.ban1 {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.ban1 li {
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.link_box1 {
+    margin-top: 60px;
+    margin-left: 35%;
+    width: 500px;
+    height: 50px;
+}
+
+.link_box1 li {
+    float: left;
+    padding-right: 50px;
+}
+
+.link_box1 li a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    transition: 1s;
+    font-weight: 600;
+}
+
+.link_box1 li a:hover {
+    background: #fff;
+    color: #000;
+}
+
+/*2번째 슬라이드*/
+#slide2 {
+    border: 2px solid #07b5f6;
+    margin-top: 100px;
+    width: 1200px;
+    height: 700px;
+    margin-left: 120px;
+    position: relative;
+}
+
+.slide2_box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 500px;
+    height: 300px;
+    background: #07b5f6;
+    z-index: 6;
+}
+
+.por2_tit {
+    position: absolute;
+    left: 30px;
+    bottom: 100px;
+    font-size: 35px;
+    color: #fff;
+}
+
+.btn2 {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    bottom: 0px;
+    right: 0;
+    z-index: 5;
+}
+
+.btn2 li {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: #07b5f6;
+}
+
+.btn2 li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.ban2 {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.ban2 li {
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.link_box2 {
+    margin-top: 60px;
+    margin-left: 35%;
+    width: 600px;
+    height: 50px;
+}
+
+.link_box2 li {
+    float: left;
+    padding-right: 50px;
+}
+
+.link_box2 li a {
+    display: block;
+    width: 210px;
+    height: 50px;
+    background: #07b5f6;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    transition: 1s;
+    font-weight: 600;
+    border: 1px solid #07b5f6;
+}
+
+.link_box2 li a:hover {
+    background: #fff;
+    color: #07b5f6;
+}
+/*3번째 슬라이드*/
+#slide3 {
+    border: 2px solid #585858;
+    margin-top: 100px;
+    width: 1200px;
+    height: 700px;
+    margin-left: 120px;
+    position: relative;
+}
+
+.slide3_box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 500px;
+    height: 300px;
+    background: #cfa958;
+    z-index: 6;
+}
+
+.por3_tit {
+    position: absolute;
+    left: 30px;
+    bottom: 100px;
+    font-size: 35px;
+    color: #fff;
+}
+
+.btn3 {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    bottom: 0px;
+    right: 0;
+    z-index: 5;
+}
+
+.btn3 li {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: #585858;
+}
+
+.btn3 li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.ban3 {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.ban3 li {
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.link_box3 {
+    margin-top: 60px;
+    margin-left: 35%;
+    width: 600px;
+    height: 50px;
+}
+
+.link_box3 li {
+    float: left;
+    padding-right: 50px;
+}
+
+.link_box3 li a {
+    display: block;
+    width: 210px;
+    height: 50px;
+    background: #585858;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    transition: 1s;
+    font-weight: 600;
+    border: 1px solid #585858;
+}
+
+.link_box3 li a:hover {
+    background: #fff;
+    color: #585858;
+}
+#page5 {
+    width: 1440px;
+    margin: 0 auto;
+    height: 2000px;
+}
+
+#page5 .page5_tit {
+    margin-top: 200px;
+    padding-top: 100px;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 50px;
+}
+#page5 .page5_sub {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #585858;
+    font-weight: 600;
+    margin-left: 50px;
+}
+#video{
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin-left: 30px;
+}
+#video2{
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin-left: 30px;
+}
+.etc_box{
+    position: relative;    
+    width: 1350px;
+    margin: 60px auto;
+    height: 950px;
+}
+.etc_box li:nth-child(1){
+    margin-left: 30px;
+}
+.etc_box li:nth-child(2){
+    margin-left: 40px;
+}
+.etc_box li:nth-child(3){
+    margin-left: 60px;
+}
+.etc_box li:nth-child(3) img:hover img{
+    transform: scale(2);
+} 
+.etc_box li:nth-child(4){
+    margin-left: 50px;
+}
+.poster1 , .poster2 {
+    transform: scale(1);
+    transition: 0.8s;
+}
+
+.poster1:hover , .poster2:hover {
+    transform: scale(1.2);
+}
+.mok1 , .mok2 {
+    transform: scale(1);
+    transition: 0.8s;
+}
+
+.mok1:hover , .mok2:hover {
+    transform: scale(1.2);
+}
+.etc_box li{
+    margin-left: 20px;
+    float: left;
+    overflow: hidden;
+    cursor: pointer;
+}
+.poster1,.poster2{
+    display: block;
+    width: 352px;
+    height: 410px;
+}
+
