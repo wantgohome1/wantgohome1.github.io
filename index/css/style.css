@@ -1261,7 +1261,7 @@ a.logo {
 #page6{
     width: 1440px;
     margin: 0 auto;
-    height: 500px;
+    height: 750px;
     position: relative;
 }
 #page6 .page6_tit {
@@ -1287,41 +1287,81 @@ a.logo {
 }
 .cal{
     font-size: 25px;
-    top: 54%;
+    top: 35%;
     left: 38%;
     color: #897874;
 }
 .email{
     font-size: 25px;
-    top: 67%;
+    top: 43%;
     left: 38%; 
     color: #897874;
 }
 .adr{
     font-size: 25px;
-    top: 79%;
+    top: 51%;
     left: 37.5%;
     color: #897874;
 }
 .cal_num{
     font-size: 20px;
-    top: 55.5%;
+    top: 35.5%;
     font-size: 20px;
     left: 55%;
 }
 .email_num{
     font-size: 20px;
-    top: 67%;
+    top: 43%;
     font-size: 20px;
     left: 55%;
 }
 .adr_num{
     font-size: 20px;
-    top: 79.5%;
+    top: 51.5%;
     font-size: 20px;
     left: 55%;
     font-weight: 500;
 }
+.ipsa{
+    position: absolute;
+    top: 65%;
+    font-size: 25px;
+    left: 38%;
+    font-weight: 500;
+}
+.myself{
+    position: absolute;
+    top: 65%;
+    font-size: 25px;
+    left: 56%;
+    font-weight: 500;
+}
+.mola{
+    position: absolute;
+    display: block;
+    top: 65%;
+    font-size: 25px;
+    left: 63.5%;
+    font-weight: 500;
+}
+.last{
+    width: 800px;
+    height: 70px;
+    margin: 350px auto;
+}
+.last li{
+    width: 33.3333%;
+    height: 70px;
+    text-align: center;
+    float: left;
+}
+.last_img{
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-left: 250px;
+}
+
 .ft{
     width: 100%;
     height: 60px;
