@@ -1348,20 +1348,31 @@ a.logo {
     width: 800px;
     height: 70px;
     margin: 350px auto;
+    position: relative;
 }
 .last li{
-    width: 33.3333%;
+    position: absolute;
+    width: 70px;
     height: 70px;
     text-align: center;
     float: left;
+}
+.last li a{
+    display: block;
+    width: 70px;
+    height: 70px;
 }
 .last_img{
     display: block;
     width: 70px;
     height: 70px;
-    margin-left: 250px;
 }
-
+.x_box1{
+    left: 30%;
+}
+.x_box2{
+    left: 63%;
+}
 .ft{
     width: 100%;
     height: 60px;
