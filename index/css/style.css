@@ -298,30 +298,36 @@ a.logo {
 
 .bar2 {
     width: 3px;
-    height: 250px;
+    height: 280px;
     position: absolute;
     background: #6e706e;
     left: 57%;
-    top: 70%;
+    top: 67%;
 }
     
 .license {
     position: absolute;
     font-size: 25px;
-    top: 70.1%;
+    top: 67.1%;
     left: 60%;
 }
 
 .license_com {
     position: absolute;
-    top: 76.5%;
+    top: 73.5%;
     left: 61%;
     line-height: 0px;
     text-align: left;
 }
 .license_com2 {
     position: absolute;
-    top: 79.5%;
+    top: 76.5%;
+    left: 61%;
+    text-align: left;
+}
+.license_com3 {
+    position: absolute;
+    top: 80.5%;
     left: 61%;
     text-align: left;
 }
@@ -330,12 +336,12 @@ a.logo {
     display: block;
     position: absolute;
     font-size: 25px;
-    top: 84.4%;
+    top: 86.4%;
     left: 60%;
 }
 .turn_com {
     position: absolute;
-    top: 91%;
+    top: 93%;
     left: 61.5%;
 }
 .turn_com li{
@@ -1261,7 +1267,7 @@ a.logo {
 #page6{
     width: 1440px;
     margin: 0 auto;
-    height: 750px;
+    height: 500px;
     position: relative;
 }
 #page6 .page6_tit {
@@ -1287,91 +1293,40 @@ a.logo {
 }
 .cal{
     font-size: 25px;
-    top: 35%;
+    top: 54%;
     left: 38%;
     color: #897874;
 }
 .email{
     font-size: 25px;
-    top: 43%;
+    top: 67%;
     left: 38%; 
     color: #897874;
 }
 .adr{
     font-size: 25px;
-    top: 51%;
+    top: 79%;
     left: 37.5%;
     color: #897874;
 }
 .cal_num{
     font-size: 20px;
-    top: 35.5%;
+    top: 55.5%;
     font-size: 20px;
     left: 55%;
 }
 .email_num{
     font-size: 20px;
-    top: 43%;
+    top: 67%;
     font-size: 20px;
     left: 55%;
 }
 .adr_num{
     font-size: 20px;
-    top: 51.5%;
+    top: 79.5%;
     font-size: 20px;
     left: 55%;
     font-weight: 500;
-}
-.ipsa{
-    position: absolute;
-    top: 65%;
-    font-size: 25px;
-    left: 38%;
-    font-weight: 500;
-}
-.myself{
-    position: absolute;
-    top: 65%;
-    font-size: 25px;
-    left: 56%;
-    font-weight: 500;
-}
-.mola{
-    position: absolute;
-    display: block;
-    top: 65%;
-    font-size: 25px;
-    left: 63.5%;
-    font-weight: 500;
-}
-.last{
-    width: 800px;
-    height: 70px;
-    margin: 350px auto;
-    position: relative;
-}
-.last li{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    text-align: center;
-    float: left;
-}
-.last li a{
-    display: block;
-    width: 70px;
-    height: 70px;
-}
-.last_img{
-    display: block;
-    width: 70px;
-    height: 70px;
-}
-.x_box1{
-    left: 30%;
-}
-.x_box2{
-    left: 63%;
 }
 .ft{
     width: 100%;
